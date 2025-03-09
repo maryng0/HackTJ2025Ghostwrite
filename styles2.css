@@ -1,0 +1,48 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply background image */
+body {
+    background-image: url('send(2).png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    padding: 50px;
+  
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+/* Content section */
+.content {
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
